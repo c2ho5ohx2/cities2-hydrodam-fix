@@ -1,0 +1,52 @@
+<Publish>
+  <ModId Value="159582" />
+
+  <DisplayName Value="HydroDam Fix 1.6.2f1" />
+
+  <ShortDescription Value="Fixes hydroelectric dams producing 0 MW after the Cities: Skylines II 1.6.2f1 update." />
+
+  <LongDescription>
+# HydroDam Fix 1.6.2f1
+
+Fixes the hydroelectric dam regression introduced in Cities: Skylines II 1.6.2f1.
+
+## Fixes
+
+- Hydroelectric dams incorrectly producing 0 MW
+- Incorrect -100% Low Water Level penalty despite sufficient water
+- New dam placement showing 0 W
+- Dam placement no longer orienting correctly with river flow
+
+The mod applies a narrowly targeted compatibility fix to the affected water-flow CPU readback path.
+
+It does not modify save-game data, the hydroelectric production formula, or the water simulation itself.
+
+The fix is guarded: if the affected implementation is no longer present, the mod makes no change.
+
+Source code is available on GitHub.
+  </LongDescription>
+
+  <Thumbnail Value="Properties/Thumbnail.png" />
+
+  <Tag Value="Code Mod" />
+
+  <ModVersion Value="0.1.0" />
+
+  <GameVersion Value="1.6.2*" />
+
+  <ChangeLog>
+## 0.1.0
+
+Initial release.
+
+- Fixes hydroelectric dams producing 0 MW.
+- Fixes incorrect Low Water Level penalties.
+- Restores hydroelectric dam placement power estimates.
+- Restores river-flow-based dam orientation.
+- Adds compatibility guards so no change is made if the known regression is absent.
+  </ChangeLog>
+
+  <ExternalLink Type="github" Url="https://github.com/c2ho5ohx2/cities2-hydrodam-fix" />
+
+  <AccessLevel Value="Public" />
+</Publish>
