@@ -27,6 +27,14 @@ Source code is available on GitHub.
   </LongDescription>
 
   <Thumbnail Value="Properties/Thumbnail.png" />
+  
+  <Screenshot Value="Properties/Screenshots/HydroDam_Fix_Before.png" />
+  
+  <Screenshot Value="Properties/Screenshots/HydroDam_Fix_After.png" />
+  
+  <Screenshot Value="Properties/Screenshots/HydroDam_Fix_After_2.png" />
+  
+  <Screenshot Value="Properties/Screenshots/HydroDam_Fix_Before_After.png" />
 
   <Tag Value="Code Mod" />
 
