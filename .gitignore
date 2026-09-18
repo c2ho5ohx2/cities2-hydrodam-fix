@@ -1,0 +1,22 @@
+# Build output
+bin/
+obj/
+
+# Local dependency copies
+lib/
+
+# IDE/editor
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Logs / dumps / saves
+*.log
+*.dmp
+*.cok
+*.cid
+
+# OS junk
+.DS_Store
+Thumbs.db

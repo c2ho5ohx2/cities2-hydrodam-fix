@@ -1,0 +1,14 @@
+{
+  "Id": "HydroReadbackFix",
+  "DisplayName": "HydroDam Fix 1.6.2f1",
+  "ShortDescription": "Fixes hydroelectric dams producing 0 MW after the Cities: Skylines II 1.6.2f1 update.",
+  "LongDescription": "Compatibility fix for Cities: Skylines II 1.6.2f1. Fixes hydroelectric dams incorrectly producing 0 MW, showing Low Water Level despite sufficient water, displaying 0 W during placement, and failing to orient correctly with river flow. The mod only applies the fix when the known 1.6.2f1 regression is detected.",
+  "Authors": "summerborn",
+  "Version": "0.1.0",
+  "Tags": [
+    "Code Mod",
+    "Utilities"
+  ],
+  "ForumLink": "",
+  "Screenshots": []
+}
